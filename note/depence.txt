@@ -1,0 +1,9 @@
+npm install react-icons react-hook-form clsx
+npm install @tailwindcss/forms
+npm install -D prisma => npx prisma init -> npx prisma db push
+npm install next-auth@latest @prisma/client @next-auth/prisma-adapter bcrypt
+npm install prisma @prisma/client
+npm install -D @types/bcrypt
+npm install axios
+npm install react-hot-toast
+npm install react-icons
