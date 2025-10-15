@@ -25,11 +25,12 @@ const Avatar: React.FC<AvatarProps> = ({
                 <Image 
                     alt="Avatar"
                     src={user?.image || '/images/placeholder.png'}
-                    width={40}
-                    height={40}
-                    className="rounded-full"
+                    fill
                 />
-                <span
+               
+            </div>
+
+             <span
                     className="
                         absolute
                         block
@@ -41,11 +42,10 @@ const Avatar: React.FC<AvatarProps> = ({
                         right-0
                         h-2
                         w-2
-                        md:h-11
-                        md:w-11
+                        md:h-3
+                        md:w-3
                     "
                 />
-            </div>
         </div>
     );
 }
