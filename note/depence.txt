@@ -7,3 +7,5 @@ npm install -D @types/bcrypt
 npm install axios
 npm install react-hot-toast
 npm install react-icons
+npm install superjson
+npm install date-fns
